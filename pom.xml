@@ -19,12 +19,12 @@
     <repository>
       <id>spring-releases</id>
       <name>spring-releases</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/spring-releases/</url>
+      <url>http://ec2-13-232-172-141.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/raspberry-prod/</url>
     </repository>
     <snapshotRepository>
       <id>spring-snapshots</id>
       <name>spring-snapshots</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/spring-snapshots/</url>
+      <url>http://ec2-13-232-172-141.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/raspberry-releases/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
