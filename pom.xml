@@ -17,13 +17,13 @@
   </dependencies>
 <distributionManagement>
     <repository>
-      <id>spring-releases</id>
-      <name>spring-releases</name>
+      <id>raspberry-prod</id>
+      <name>raspberry-prod</name>
       <url>http://ec2-13-232-172-141.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/raspberry-prod/</url>
     </repository>
     <snapshotRepository>
-      <id>spring-snapshots</id>
-      <name>spring-snapshots</name>
+      <id>raspberry-releases</id>
+      <name>raspberry-releases</name>
       <url>http://ec2-13-232-172-141.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/raspberry-releases/</url>
     </snapshotRepository>
   </distributionManagement>
